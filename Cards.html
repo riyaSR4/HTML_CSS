@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+</head>
+
+<body class="cards">
+    <div class="card">
+        <img src="kerala.jpeg">
+        <div class="text">
+            <h3>Kerala</h3>
+            <p>Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline.</p>
+            <button>Explore more...</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="chennai.jpeg">
+        <div class="text">
+            <h3>Chennai</h3>
+            <p>Chennai, on the Bay of Bengal in eastern India, is the capital of the state of Tamil Nadu.</p>
+            <button>Explore more...</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="delhi.jpeg">
+        <div class="text">
+            <h3>Delhi</h3>
+            <p>Delhi, India’s capital territory, is a massive metropolitan area in the country’s north.</p>
+            <button>Explore more...</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="JK.jpeg">
+        <div class="text">
+            <h3>Jammu and Kashmir</h3>
+            <p>Jammu and Kashmir is a region administered by India as a union territory.</p>
+            <button>Explore more...</button>
+        </div>
+    </div>
+</body>
+<style>
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .card {
+        flex: 0 0 200px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        height: 350px;
+       
+    }
+
+    .card img {
+        max-width: 100%;
+    }
+
+    .card .text {
+        padding: 0px 20px 0px;
+    }
+
+    .card .text>button {
+        background: gray;
+        border: 0;
+        color: white;
+        padding: 10px;
+        width: 100%;
+    }
+</style>
+
+</html>
