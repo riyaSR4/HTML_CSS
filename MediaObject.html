@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Object</title>
+</head>
+<body>
+    <div class="media">
+        <img class="media-object" src="kerala.jpeg" alt="Sample photo">
+        <div class="media-body">
+          <h3 class="media-heading">Kerala</h3>
+          <p>Kerala, a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline.</p>
+        </div>
+      </div>
+</body>
+<style>
+    .media {
+      display: flex;
+      align-items: flex-start;
+      background: #F6F3EB;
+      padding: 1px;
+      border-radius: 3px;
+      max-width: 500px;
+    }
+    .media-object {
+      margin-right: 1px;
+      height: 100px;
+      padding: 10px;
+    }
+    .media-body {
+      flex: 1;
+      padding-left: 10px;
+      height: 140px;
+    }
+    .media-heading {
+      margin: 0 0 .5px;
+      padding-top: 10px;
+    }
+    
+  </style>
+</html>
